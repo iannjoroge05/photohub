@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(images/snow.jpg);  
+  background-position: center;
+  background-size: cover;
+  font-size: 70px;
+  text-align: center;
+  text-decoration: none;
+  font-style: bold;
+}
+.nav{
+    
+    overflow: hidden;
+   
+}
+.nav a{
+    float: left;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: darkblue;
+    text-transform: uppercase;
+    padding: 50px 80px;
+    font-size: 80px;
+    justify-content: center;
+    background-color: crimson;
+   
+}
+.nav a :hover{
+    background-color: chartreuse;
+    color: rgb(13, 156, 56);
+}
+.nav :active{
+    background-color: cyan;
+    color: blueviolet;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .left-article {
+    width: 50%;
+    float: left;
+  }
+  .right-article {
+    width: 50%;
+    float: right;
+  }
+  .sidebar {
+    position: absolute;
+    align-items: baseline;
+    top: 0;
+    right: 0;
+    width: 10%;
+    height: 70%;
+    background-color: #ccc;
+    padding: 20px;
+    font-size: 50px;
+  }
+  footer {
+    background-color: #13b866;
+    padding: 20px;
+    text-align: center;
+    bottom: 0%;
+    position: fixed;
+    width: 100%;
+   
+  }
+  .image{
+    width: 30%;
+    height: 30%;
+  }
+  .form{
+    background: #0b91ff;
+    width: 4000px;
+    height: 1500px;
+    position: center;
+  }
+  .form input{
+    width: 500px;
+    height: 70px;
+    background: transparent;
+    border-bottom: coral 10%;
+    border-top: coral 10%;
+    border-left: coral 10%;
+    border-right: coral 10%;
+    font-size: 50px;
+  }
+  .form textarea{
+    width: 800px;
+    height: 500px;
+    font-size: 50px;
+  }
+  .sub{
+    position: center;
+    display:flex;
+    row-gap: 100px;
+    padding-left: 600px;
+  }
+  .sub input{
+    background-color: coral;
+    width:270px ;
+    height: 80px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 60px;
+    cursor: pointer;
+    transition: .3s ease;
+    border-radius: 15px;
+    
+  }
+  .sub input:hover{
+    color: coral;
+    background-color: aliceblue;
+  }
+  .select{
+    width: 300px;
+    height: 100px;
+    font-size: 50px;
+  }

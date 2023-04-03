@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HOME</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+         <div class="nav">
+            <h1>SHERIFF PHOTOGRAPHY HUB</h1>
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="services.html">SERVICES</a>
+        <a href="contacts.html">CONTACT</a>
+    </div> 
+    <style>
+        #slider{
+            overflow: hidden;
+        }
+        #slider figure{
+            position: relative;
+            width: 500%;
+            margin: 0;
+            left: 0;
+            animation: 10s slider infinite;
+            height: 20%;
+        }
+        #slider figure img{
+            float: left;
+            width: 20%;
+            height: 10%;
+        }
+        @keyframes slider{
+            0% {left: 0%;}
+            20% {left: 0%;}
+            25% {left: -100%;}
+            45% {left: -100%;}
+            50% {left: -200%;}
+            70% {left: -200%;}
+            75% {left: -300%;}
+            95% {left: -300%;}
+            100% {left: -400%;}
+        }
+    </style>
+    <div id="slider">
+        <figure >
+        <img src="images\tree.jpg" alt="images">
+        <img src="images\forest.jpg" alt="images">
+        <img src="images\img_mountains_wide.jpg" alt="images">
+        <img src="images\snow.jpg" alt="images">
+        </figure>
+    </div>
+    <style>
+        .right{
+            position: absolute;
+            right: 0%;
+            border: 3px solid black;
+            padding: 10px;
+            bottom: -10%;
+            width: 50%;
+           
+        }
+    </style>
+    <div class="right">
+        <p>Our photographs are taken with high quality cameras with clear lenses to enhance maximum beauty of our client and their environment</p>
+        <img src="images\images (4).jpeg" alt="images">
+    </div>
+    <style>
+        .center{
+             margin: 20%;
+             width: 60%;
+             border: 3px solid #21ad5b;
+             padding: 10px;
+            top: 10%;
+             text-align: center;
+        }
+    </style>
+    <div class="center">
+        <img src="images\images (6).jpeg" alt="images">
+        <p>We take part in all events that photography is needed</p>
+    </div>
+    <style>
+        .left{
+            position: absolute;
+            left: 0%;
+            border: 3px solid black;
+            padding: 10px;
+            width: 40%;
+            bottom: -7%;
+        }
+    </style>
+    <div class="left">
+        <p>We make sure we offer our clients a service to remember.This creates trust from our customers who we proudly serve</p>
+        <img src="images\images (1).jpeg" alt="images">
+    </div>
+    <div class="sidebar">
+        <!-- sidebar content goes here -->
+        <h1>Advertise with us through our platforms</h1>
+         <img src="images\images (2).jpeg" alt="images">
+         <ul>
+            <li>Whatsapp: 0712441767</li>
+            <li>Instagram:intidhasheriff</li>
+            <li>Facebook:intidhasheriff</li>
+            <li>Twitter:@inti_sheriff</li>
+         </ul>
+      </div>
+    <footer>
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+        <p>Contact us at <a href="intidhasheriff@gmail.com">intidhasheriff@gmail.com</a></p>
+      </footer>
+</body>
+</html>
